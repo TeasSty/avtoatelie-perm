@@ -11,8 +11,6 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="stitch-rail" aria-hidden="true"></div>
-
   <header class="site-header">
     <a class="logo" href="#top">АВТОАТЕЛЬЕ</a>
     <nav class="nav" aria-label="Основная навигация">
@@ -33,7 +31,7 @@
   <main id="top">
     <section class="hero">
       <div class="hero-media">
-        <img src="assets/images/hero-seat.jpg" alt="Чёрное сиденье с строчкой после перетяжки" width="2000" height="1333" />
+        <img src="assets/images/hero.jpg" alt="Перетянутое автомобильное сиденье" width="2000" height="1333" />
       </div>
       <div class="hero-content">
         <p class="eyebrow">Пермь · Дзержинского 59</p>
@@ -54,17 +52,17 @@
       </div>
       <div class="compare-stage" data-compare>
         <div class="compare-after">
-          <img src="assets/images/after-seat.jpg" alt="Сиденье после перетяжки" />
+          <img src="assets/images/compare-after.jpg" alt="Сиденье после перетяжки" />
         </div>
         <div class="compare-before" style="--pos: 50%">
-          <img src="assets/images/before-seat.jpg" alt="Сиденье до перетяжки" />
+          <img src="assets/images/compare-before.jpg" alt="Сиденье до перетяжки" />
         </div>
         <div class="compare-handle" style="left: 50%" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="Сравнить до и после">
           <span class="compare-line"></span>
           <span class="compare-knob"></span>
         </div>
       </div>
-      <p class="compare-caption">Потяните красную строчку, чтобы сравнить до и после. Здесь стоят временные фото — заменим на ваши.</p>
+      <p class="compare-caption">Потяните красную строчку. Позже заменим на ваши парные фото работ.</p>
     </section>
 
     <section class="services" id="services">
@@ -81,7 +79,7 @@
             <span class="service-mark" aria-hidden="true"></span>
           </button>
           <div class="service-panel" hidden>
-            <img src="assets/images/wheel.jpg" alt="Руль автомобиля" />
+            <img src="assets/images/svc-wheel.jpg" alt="Руль в коже со строчкой" />
             <p>Экокожа и натуральная кожа. В том числе крышки airbag.</p>
           </div>
         </li>
@@ -93,7 +91,7 @@
             <span class="service-mark" aria-hidden="true"></span>
           </button>
           <div class="service-panel" hidden>
-            <img src="assets/images/workshop.jpg" alt="Работа с сиденьем в мастерской" />
+            <img src="assets/images/svc-bolster.jpg" alt="Восстановление боковой поддержки сиденья" />
             <p>Восстановление формы и наполнителя боковой поддержки.</p>
           </div>
         </li>
@@ -105,7 +103,7 @@
             <span class="service-mark" aria-hidden="true"></span>
           </button>
           <div class="service-panel" hidden>
-            <img src="assets/images/work-2.jpg" alt="Элементы сиденья" />
+            <img src="assets/images/svc-repair.jpg" alt="Пошив обивки сиденья" />
             <p>Локальный ремонт и замена изношенных частей обивки.</p>
           </div>
         </li>
@@ -117,7 +115,7 @@
             <span class="service-mark" aria-hidden="true"></span>
           </button>
           <div class="service-panel" hidden>
-            <img src="assets/images/hero-seat.jpg" alt="Перетянутое сиденье" />
+            <img src="assets/images/svc-seats.jpg" alt="Перетянутое сиденье" />
             <p>Перетяжка сидений. Материал и цвет — после оценки.</p>
           </div>
         </li>
@@ -129,7 +127,7 @@
             <span class="service-mark" aria-hidden="true"></span>
           </button>
           <div class="service-panel" hidden>
-            <img src="assets/images/interior.jpg" alt="Салон автомобиля" />
+            <img src="assets/images/svc-salon.jpg" alt="Салон после перетяжки" />
             <p>Перетяжка элементов салона целиком или частично.</p>
           </div>
         </li>
@@ -141,7 +139,7 @@
             <span class="service-mark" aria-hidden="true"></span>
           </button>
           <div class="service-panel" hidden>
-            <img src="assets/images/boat.jpg" alt="Катер" />
+            <img src="assets/images/svc-boat.jpg" alt="Сиденье катера после перешива" />
             <p>Перетяжка посадочных мест и элементов интерьера.</p>
           </div>
         </li>
@@ -155,15 +153,15 @@
       </div>
       <div class="material-strip">
         <button class="material-card is-active" type="button" data-material="eco">
-          <img src="assets/images/leather-black.jpg" alt="Фактура экокожи" />
+          <img src="assets/images/mat-eco.jpg" alt="Фактура экокожи" />
           <span>Экокожа</span>
         </button>
         <button class="material-card" type="button" data-material="natural">
-          <img src="assets/images/leather-tan.jpg" alt="Фактура натуральной кожи" />
+          <img src="assets/images/mat-nappa.jpg" alt="Фактура натуральной кожи" />
           <span>Натуральная кожа</span>
         </button>
         <button class="material-card" type="button" data-material="combo">
-          <img src="assets/images/hero-seat.jpg" alt="Комбинация материалов" />
+          <img src="assets/images/mat-combo.jpg" alt="Комбинация материалов и строчки" />
           <span>Комбинации материалов</span>
         </button>
       </div>
@@ -187,49 +185,49 @@
       </div>
       <div class="works-grid">
         <article class="work work-lg" data-cat="seat">
-          <img src="assets/images/hero-seat.jpg" alt="Перетяжка сиденья" />
+          <img src="assets/images/work-seat.jpg" alt="Перетяжка сиденья" />
           <div class="work-meta">
             <span>Сиденье</span>
             <p>Перетяжка сидений</p>
           </div>
         </article>
         <article class="work" data-cat="wheel">
-          <img src="assets/images/wheel.jpg" alt="Перетяжка руля" />
+          <img src="assets/images/work-wheel.jpg" alt="Перетяжка руля" />
           <div class="work-meta">
             <span>Руль</span>
             <p>Перетяжка руля</p>
           </div>
         </article>
         <article class="work" data-cat="salon">
-          <img src="assets/images/interior.jpg" alt="Перетяжка салона" />
+          <img src="assets/images/work-salon.jpg" alt="Перетяжка салона" />
           <div class="work-meta">
             <span>Салон</span>
             <p>Перетяжка салона</p>
           </div>
         </article>
         <article class="work" data-cat="seat">
-          <img src="assets/images/after-seat.jpg" alt="Восстановление сиденья" />
+          <img src="assets/images/compare-after.jpg" alt="Сиденье после перетяжки" />
           <div class="work-meta">
             <span>Сиденье</span>
             <p>Ремонт и перетяжка</p>
           </div>
         </article>
         <article class="work" data-cat="boat">
-          <img src="assets/images/boat.jpg" alt="Перешив катера" />
+          <img src="assets/images/work-boat.jpg" alt="Перешив катера" />
           <div class="work-meta">
             <span>Катер / яхта</span>
             <p>Перешив посадочных мест</p>
           </div>
         </article>
         <article class="work" data-cat="special">
-          <img src="assets/images/workshop.jpg" alt="Работа со спецтехникой" />
+          <img src="assets/images/work-special.jpg" alt="Сиденье спецтехники" />
           <div class="work-meta">
             <span>Спецтехника</span>
             <p>Перешив элементов</p>
           </div>
         </article>
       </div>
-      <p class="works-note">Временные фото. Заменим на работы из VK.</p>
+      <p class="works-note">Демо-фото. Заменим на работы из VK.</p>
     </section>
 
     <section class="process" id="process">

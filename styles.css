@@ -90,23 +90,6 @@ ol {
   list-style: none;
 }
 
-.stitch-rail {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: max(0.75rem, calc((100vw - var(--max)) / 2 + 0.35rem));
-  width: 1px;
-  background-image: linear-gradient(
-    to bottom,
-    var(--stitch) 0 8px,
-    transparent 8px 16px
-  );
-  background-size: 1px 16px;
-  opacity: 0.55;
-  pointer-events: none;
-  z-index: 40;
-}
-
 .site-header {
   position: sticky;
   top: 0;
@@ -773,10 +756,6 @@ main > section {
 }
 
 @media (max-width: 960px) {
-  .stitch-rail {
-    display: none;
-  }
-
   .nav {
     display: none;
   }
