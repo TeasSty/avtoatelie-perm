@@ -257,7 +257,7 @@ main > section {
   z-index: 2;
   width: min(100%, var(--max));
   margin: 0 auto;
-  padding: clamp(5rem, 14vh, 8rem) var(--pad) clamp(3rem, 8vh, 5rem);
+  padding: clamp(4rem, 10vh, 7rem) var(--pad) clamp(2.5rem, 7vh, 4.5rem);
 }
 
 .eyebrow {
