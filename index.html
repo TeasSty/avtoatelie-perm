@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Автоателье в Перми: перетяжка руля и сидений, восстановление боковой поддержки, салоны авто, катера и спецтехника. Оценка по фото." />
+  <title>Автоателье | Пермь</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="stitch-rail" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">АВТОАТЕЛЬЕ</a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a>
+      <a href="#works">Работы</a>
+      <a href="#materials">Материалы</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <a class="phone" href="tel:+79955469897">+7 (995) 546-98-97</a>
+      <a class="btn btn-primary" href="#estimate">Оценка по фото</a>
+      <button class="nav-toggle" type="button" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media">
+        <img src="assets/images/hero-seat.jpg" alt="Чёрное сиденье с строчкой после перетяжки" width="2000" height="1333" />
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">Пермь · Дзержинского 59</p>
+        <h1>АВТОАТЕЛЬЕ</h1>
+        <p class="hero-lead">Перетяжка руля и сидений, восстановление боковой поддержки, салоны авто, катера и спецтехника.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#estimate">Прислать фото</a>
+          <a class="btn btn-ghost" href="#works">Смотреть работы</a>
+        </div>
+      </div>
+      <div class="hero-seam" aria-hidden="true"></div>
+    </section>
+
+    <section class="compare" id="compare" aria-label="Пример работы до и после">
+      <div class="section-head">
+        <p class="label">01 / Пример</p>
+        <h2>До и после</h2>
+      </div>
+      <div class="compare-stage" data-compare>
+        <div class="compare-after">
+          <img src="assets/images/after-seat.jpg" alt="Сиденье после перетяжки" />
+        </div>
+        <div class="compare-before" style="--pos: 50%">
+          <img src="assets/images/before-seat.jpg" alt="Сиденье до перетяжки" />
+        </div>
+        <div class="compare-handle" style="left: 50%" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="Сравнить до и после">
+          <span class="compare-line"></span>
+          <span class="compare-knob"></span>
+        </div>
+      </div>
+      <p class="compare-caption">Потяните красную строчку, чтобы сравнить до и после. Здесь стоят временные фото — заменим на ваши.</p>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-head">
+        <p class="label">02 / Услуги</p>
+        <h2>Что делаем</h2>
+      </div>
+      <ul class="service-cut">
+        <li>
+          <button class="service-row" type="button" aria-expanded="false">
+            <span class="service-id">01</span>
+            <span class="service-name">Перетяжка рулей</span>
+            <span class="service-price">от 7 500 ₽</span>
+            <span class="service-mark" aria-hidden="true"></span>
+          </button>
+          <div class="service-panel" hidden>
+            <img src="assets/images/wheel.jpg" alt="Руль автомобиля" />
+            <p>Экокожа и натуральная кожа. В том числе крышки airbag.</p>
+          </div>
+        </li>
+        <li>
+          <button class="service-row" type="button" aria-expanded="false">
+            <span class="service-id">02</span>
+            <span class="service-name">Ремонт и восстановление боковой поддержки</span>
+            <span class="service-price">от 7 500 ₽</span>
+            <span class="service-mark" aria-hidden="true"></span>
+          </button>
+          <div class="service-panel" hidden>
+            <img src="assets/images/workshop.jpg" alt="Работа с сиденьем в мастерской" />
+            <p>Восстановление формы и наполнителя боковой поддержки.</p>
+          </div>
+        </li>
+        <li>
+          <button class="service-row" type="button" aria-expanded="false">
+            <span class="service-id">03</span>
+            <span class="service-name">Ремонт и замена элементов сидений</span>
+            <span class="service-price">от 7 500 ₽</span>
+            <span class="service-mark" aria-hidden="true"></span>
+          </button>
+          <div class="service-panel" hidden>
+            <img src="assets/images/work-2.jpg" alt="Элементы сиденья" />
+            <p>Локальный ремонт и замена изношенных частей обивки.</p>
+          </div>
+        </li>
+        <li>
+          <button class="service-row" type="button" aria-expanded="false">
+            <span class="service-id">04</span>
+            <span class="service-name">Перетяжка сидений автомобиля</span>
+            <span class="service-price">от 33 000 ₽</span>
+            <span class="service-mark" aria-hidden="true"></span>
+          </button>
+          <div class="service-panel" hidden>
+            <img src="assets/images/hero-seat.jpg" alt="Перетянутое сиденье" />
+            <p>Полная перетяжка сидений под выбранный материал и цвет.</p>
+          </div>
+        </li>
+        <li>
+          <button class="service-row" type="button" aria-expanded="false">
+            <span class="service-id">05</span>
+            <span class="service-name">Перетяжка салонов авто</span>
+            <span class="service-price">от 33 000 ₽</span>
+            <span class="service-mark" aria-hidden="true"></span>
+          </button>
+          <div class="service-panel" hidden>
+            <img src="assets/images/interior.jpg" alt="Салон автомобиля" />
+            <p>Комплексная перетяжка элементов салона.</p>
+          </div>
+        </li>
+        <li>
+          <button class="service-row" type="button" aria-expanded="false">
+            <span class="service-id">06</span>
+            <span class="service-name">Перешив яхт, катеров, спецтехники</span>
+            <span class="service-price">от 10 000 ₽</span>
+            <span class="service-mark" aria-hidden="true"></span>
+          </button>
+          <div class="service-panel" hidden>
+            <img src="assets/images/boat.jpg" alt="Катер" />
+            <p>Перетяжка посадочных мест и элементов интерьера.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="materials" id="materials">
+      <div class="section-head">
+        <p class="label">03 / Материалы</p>
+        <h2>С чем работаем</h2>
+      </div>
+      <div class="material-strip">
+        <button class="material-card is-active" type="button" data-material="eco">
+          <img src="assets/images/leather-black.jpg" alt="Фактура экокожи" />
+          <span>Экокожа</span>
+        </button>
+        <button class="material-card" type="button" data-material="natural">
+          <img src="assets/images/leather-tan.jpg" alt="Фактура натуральной кожи" />
+          <span>Натуральная кожа</span>
+        </button>
+        <button class="material-card" type="button" data-material="combo">
+          <img src="assets/images/hero-seat.jpg" alt="Комбинация материалов" />
+          <span>Комбинации под задачу</span>
+        </button>
+      </div>
+      <p class="material-note" id="material-note">Экокожа — основной вариант для рулей и сидений. Цвет и фактуру подбираем по фото и образцам.</p>
+    </section>
+
+    <section class="works" id="works">
+      <div class="section-head works-head">
+        <div>
+          <p class="label">04 / Работы</p>
+          <h2>Примеры</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Фильтр работ">
+          <button class="filter is-active" type="button" data-filter="all">Все</button>
+          <button class="filter" type="button" data-filter="wheel">Руль</button>
+          <button class="filter" type="button" data-filter="seat">Сиденье</button>
+          <button class="filter" type="button" data-filter="salon">Салон</button>
+          <button class="filter" type="button" data-filter="boat">Катер / яхта</button>
+          <button class="filter" type="button" data-filter="special">Спецтехника</button>
+        </div>
+      </div>
+      <div class="works-grid">
+        <article class="work work-lg" data-cat="seat">
+          <img src="assets/images/hero-seat.jpg" alt="Перетяжка сиденья" />
+          <div class="work-meta">
+            <span>Сиденье</span>
+            <p>Перетяжка сидений</p>
+          </div>
+        </article>
+        <article class="work" data-cat="wheel">
+          <img src="assets/images/wheel.jpg" alt="Перетяжка руля" />
+          <div class="work-meta">
+            <span>Руль</span>
+            <p>Перетяжка руля</p>
+          </div>
+        </article>
+        <article class="work" data-cat="salon">
+          <img src="assets/images/interior.jpg" alt="Перетяжка салона" />
+          <div class="work-meta">
+            <span>Салон</span>
+            <p>Перетяжка салона</p>
+          </div>
+        </article>
+        <article class="work" data-cat="seat">
+          <img src="assets/images/after-seat.jpg" alt="Восстановление сиденья" />
+          <div class="work-meta">
+            <span>Сиденье</span>
+            <p>Ремонт и перетяжка</p>
+          </div>
+        </article>
+        <article class="work" data-cat="boat">
+          <img src="assets/images/boat.jpg" alt="Перешив катера" />
+          <div class="work-meta">
+            <span>Катер / яхта</span>
+            <p>Перешив посадочных мест</p>
+          </div>
+        </article>
+        <article class="work" data-cat="special">
+          <img src="assets/images/workshop.jpg" alt="Работа со спецтехникой" />
+          <div class="work-meta">
+            <span>Спецтехника</span>
+            <p>Перешив элементов</p>
+          </div>
+        </article>
+      </div>
+      <p class="works-note">Временные фото. Заменим на работы из VK.</p>
+    </section>
+
+    <section class="process" id="process">
+      <div class="section-head">
+        <p class="label">05 / Порядок</p>
+        <h2>Как проходит работа</h2>
+      </div>
+      <ol class="process-list">
+        <li>
+          <span>01</span>
+          <div>
+            <h3>Фото</h3>
+            <p>Присылаете фото повреждения или нужного элемента.</p>
+          </div>
+        </li>
+        <li>
+          <span>02</span>
+          <div>
+            <h3>Оценка</h3>
+            <p>Считаем стоимость, подбираем материал и срок.</p>
+          </div>
+        </li>
+        <li>
+          <span>03</span>
+          <div>
+            <h3>Работа</h3>
+            <p>Делаем перетяжку или ремонт. Гарантия на материалы и работу.</p>
+          </div>
+        </li>
+      </ol>
+      <p class="process-facts">3+ года · гарантия на материалы и работу · консультация по фото · партнёрская программа</p>
+    </section>
+
+    <section class="partners" id="partners">
+      <div class="partners-inner">
+        <h2>Партнёрам</h2>
+        <p>Для сервисов и партнёров — отдельные условия. Напишите руководителю.</p>
+        <a class="btn btn-ghost" href="mailto:himperm59@yandex.ru">himperm59@yandex.ru</a>
+      </div>
+    </section>
+
+    <section class="estimate" id="estimate">
+      <div class="section-head">
+        <p class="label">06 / Оценка</p>
+        <h2>Прислать фото</h2>
+      </div>
+      <form class="estimate-form" id="estimate-form">
+        <label>
+          Имя
+          <input type="text" name="name" autocomplete="name" required />
+        </label>
+        <label>
+          Телефон
+          <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required placeholder="+7" />
+        </label>
+        <label class="full">
+          Что нужно сделать
+          <textarea name="message" rows="3" placeholder="Руль, сиденье, боковая поддержка…"></textarea>
+        </label>
+        <label class="full file-field">
+          Фото
+          <input type="file" name="photos" accept="image/*" multiple />
+          <span class="file-hint">Можно несколько снимков</span>
+        </label>
+        <button class="btn btn-primary full" type="submit">Отправить на почту</button>
+        <p class="form-note full">Заявка уйдёт на himperm59@yandex.ru. Фото приложите вручную в письме.</p>
+        <p class="form-status full" id="form-status" role="status" hidden></p>
+      </form>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-head">
+        <p class="label">07 / Контакты</p>
+        <h2>Мастерская</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <p class="contact-label">Адрес</p>
+          <p>Пермь, Дзержинского 59</p>
+        </div>
+        <div class="contact-card">
+          <p class="contact-label">Телефон</p>
+          <p><a href="tel:+79955469897">+7 (995) 546-98-97</a></p>
+        </div>
+        <div class="contact-card">
+          <p class="contact-label">Руководитель</p>
+          <p>Виталий Быков<br /><a href="tel:+79955465028">+7 (995) 546-50-28</a><br /><a href="mailto:himperm59@yandex.ru">himperm59@yandex.ru</a></p>
+        </div>
+        <div class="contact-card">
+          <p class="contact-label">VK</p>
+          <p><a href="https://vk.ru/avtoatelieperm" target="_blank" rel="noopener">vk.ru/avtoatelieperm</a></p>
+        </div>
+      </div>
+      <div class="map-embed">
+        <iframe
+          title="Автоателье на карте"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://yandex.ru/map-widget/v1/?ll=56.229000%2C58.010000&z=16&text=%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%2C%20%D0%94%D0%B7%D0%B5%D1%80%D0%B6%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2059"
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Автоателье | Пермь</p>
+    <a href="https://vk.ru/avtoatelieperm" target="_blank" rel="noopener">ВКонтакте</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
